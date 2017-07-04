@@ -1,0 +1,30 @@
+  503  mkdir -p repos/sample_website
+  504  cd repos/sample_website/
+  505  touch index.html
+  506  git init
+  507  git add -A
+  508  git commit -m "Initialize repository"
+  509  git remote add origin https://github.com/goidel/sample_website.git
+  510  git checkout -b gh-pages
+  511  git push -u origin gh-pages
+  512  touch readme.md
+  513  subl readme
+  514  ls
+  515  open readme
+  516  git add -A
+  517  git commit -am "create and add a readme file"
+  518  git push
+  519  ls
+  520  mv readme readme.md
+  521  open readme.md
+  522  rm readme
+  523  rm readme
+  524  ls
+  525  git commit -am "move readme to readme.md and delete readme"
+  526  git push
+  527  index.html > open
+  528  open .
+  529  subl .
+  530  rm open
+  531  open index.html
+  532  history
